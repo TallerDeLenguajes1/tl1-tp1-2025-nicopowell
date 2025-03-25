@@ -1,0 +1,11 @@
+Crear el archivo .gitignore (si no existe) en la raíz del repositorio.
+
+Agregar la siguiente línea dentro del archivo:
+ignorado.txt
+
+Guardar los cambios y confirmar la actualización en Git:
+git add .gitignore
+git commit -m "Agregado ignorado.txt al .gitignore"
+git push origin main 
+
+Con esto, Git ignorará cualquier archivo llamado ignorado.txt, evitando que sea subido al repositorio.
