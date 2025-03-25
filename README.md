@@ -2,7 +2,7 @@
 
 # TP 1
 
-## gitignore
+## Punto 2: gitignore
 
 El archivo _.gitignore_ se usa en Git para especificar qué archivos o directorios deben ser ignorados por git.
 
@@ -38,3 +38,8 @@ build/
 ```
 ignorado.txt
 ```
+
+## Punto 3: Apartado g
+Los dos apartados tienen el mismo resultado pues el valor del puntero almacena la direccion de memoria de una variable asignada, por lo cual en ambos apartados estamos mostrando la direccion de memoria de la variable, primero desde el puntero y despues desde la propia variable.
+
+En el punto 4 estamos obteniendo la direccion del propio puntero, el cual es un valor distinto pues este valor es la direccion de memoria del puntero, la cual es la direccion de memoria de la variable que almacena una direccion de memoria

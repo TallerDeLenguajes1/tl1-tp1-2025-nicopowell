@@ -6,9 +6,10 @@ int main() {
   int num = 21, *punt = &num;
 
   printf("\nContenido del puntero: %d", *punt);
-  printf("\nContenido del puntero: %p", punt);
-  printf("\nContenido del puntero: %p", &num);
-  printf("\nContenido del puntero: %d", sizeof(num));
+  printf("\nDireccion de memoria en el puntero: %p", punt);
+  printf("\nDireccion de memoria de la variable: %p", &num);
+  printf("\nDireccion de memoria del puntero: %p", &punt);
+  printf("\nTamanio de la memoria utilizada por la variable: %d", sizeof(num));
 
   return 0;
 }
