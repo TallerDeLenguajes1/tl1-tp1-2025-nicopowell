@@ -6,13 +6,13 @@
 
 El archivo _.gitignore_ se usa en Git para especificar qué archivos o directorios deben ser ignorados por git.
 
-- ¿Por qué es conveniente incluirlo?
+- **¿Por qué es conveniente incluirlo?**
 Evita subir archivos innecesarios, mejora la seguridad evitando subir datos sensibles y mantiene el repositorio limpio.
 
-- ¿Cuándo se debe incluir?
+- **¿Cuándo se debe incluir?**
 Desde el inicio del proyecto para asi evitar la subida de archivos no deseados
 
-- ¿Cómo configurarlo?
+- **¿Cómo configurarlo?**
 El archivo .gitignore debe ubicarse en la raíz del repositorio y contener patrones de archivos o carpetas que Git debe ignorar. Ejemplo:
 
 ### Ignorar archivos de configuración local
