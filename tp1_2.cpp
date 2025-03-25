@@ -13,6 +13,13 @@ void mostrarDireccionYContenido(int *punt){
   printf("\n\tContenido de la variable: %d", *punt);
 }
 
+void invertir(int *punt1, int *punt2){
+  int aux = *punt2;
+
+  *punt2 = *punt1;
+  *punt1 = aux;
+}
+
 int main() {
   int num1, num2;
   printf("Ingrese el primer numero: ");
@@ -35,5 +42,16 @@ int main() {
 
   printf("\n\n-- Numero 2 --");
   mostrarDireccionYContenido(&num2);
+
+  printf("\n\n-- Invirtiendo variables --");
+  invertir(&num1, &num2);
+
+  printf("\n\n-- Numero 1 --");
+  mostrarDireccionYContenido(&num1);
+
+  printf("\n\n-- Numero 2 --");
+  mostrarDireccionYContenido(&num2);
+
+
   return 1;
 }
