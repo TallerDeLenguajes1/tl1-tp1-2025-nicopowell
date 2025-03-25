@@ -20,6 +20,12 @@ void invertir(int *punt1, int *punt2){
   *punt1 = aux;
 }
 
+void orden(int *punt1, int *punt2){
+  if (*punt1 > *punt2) {
+    invertir(punt1, punt2);
+  }
+}
+
 int main() {
   int num1, num2;
   printf("Ingrese el primer numero: ");
@@ -52,6 +58,13 @@ int main() {
   printf("\n\n-- Numero 2 --");
   mostrarDireccionYContenido(&num2);
 
+  printf("\n\n-- Ordenando variables --");
+  orden(&num1, &num2);
 
+  printf("\n\n-- Numero 1 --");
+  mostrarDireccionYContenido(&num1);
+
+  printf("\n\n-- Numero 2 --");
+  mostrarDireccionYContenido(&num2);
   return 1;
 }
